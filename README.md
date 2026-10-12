@@ -28,19 +28,34 @@ All other members are Developers.
 
 ## Technology Stack
 
-The final technology stack is awaiting group confirmation.
+### Confirmed Decisions
 
-The system will include:
+- Database engine: PostgreSQL.
+- Email input: Selected/highlighted text.
+- Source code and collaboration: GitHub.
 
-- A browser extension interface.
-- A backend API.
-- An AI analysis component.
-- A relational database.
-- Automated checks and deployment.
+### Proposed Tools — Awaiting Group Confirmation
 
-Confirmed tools:
+- Browser: Chrome with Manifest V3.
+- Interface: HTML, CSS, and JavaScript.
+- Input action: Highlight text and select a context-menu action.
+- Backend: Python 3.12, FastAPI, and Pydantic.
+- PostgreSQL hosting: Neon.
+- Database access: SQLAlchemy.
+- Migrations: Alembic.
+- AI: Gemini structured output, subject to instructor approval
+  of any change from the DistilBERT proposal.
+- Backend hosting: Render.
+- CI/CD: GitHub Actions.
+- Python linting: Ruff.
+- Python testing: pytest and HTTPX.
+- JavaScript linting: ESLint.
+- JavaScript tooling runtime: Node.js 22.
+- Build: Extension validation and packaging script.
 
-- GitHub — Source code and collaboration.
+Proposed tools will be marked confirmed after group agreement.
+Runtime versions and commands will be verified against the
+implemented application.
 
 ## Local Setup Instructions
 
