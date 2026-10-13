@@ -205,6 +205,12 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Node.js dependencies and local environment overrides
+node_modules/
+.env.*
+!.env.example
+.pr-drafts/
+
 # Ruff stuff:
 .ruff_cache/
 
